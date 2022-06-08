@@ -2,7 +2,9 @@ ngx_addon_name=ngx_limit_upstream
 
 ngx_module_name=ngx_http_limit_upstream_module
 ngx_module_deps=
+ngx_module_incs=src/http
 ngx_module_srcs=$ngx_addon_dir/ngx_http_limit_upstream_module.c
 ngx_module_libs=
+ngx_module_type=HTTP
 
 . auto/module
